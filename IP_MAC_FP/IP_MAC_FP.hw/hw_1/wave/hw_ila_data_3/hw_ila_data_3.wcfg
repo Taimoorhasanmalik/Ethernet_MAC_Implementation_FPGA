@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1025fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="413"></NameColumnWidth>
+      <ValueColumnWidth column_width="127"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_read_buff_0_tcp_dst" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_read_buff_0_tcp_dst[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_read_buff_0_tcp_dst[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_read_buff_0_tcp_src" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_read_buff_0_tcp_src[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_read_buff_0_tcp_src[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_dst_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_dst_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_read_buff_0_ip_dst_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_id" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_read_buff_0_ip_id[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_dst" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_read_buff_0_ip_dst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_read_buff_0_ip_dst[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="IP_MAC_BD_i/sv_wrapper_fp_top_0_fp_det" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">IP_MAC_BD_i/sv_wrapper_fp_top_0_fp_det</obj_property>
+      <obj_property name="ObjectShortName">sv_wrapper_fp_top_0_fp_det</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

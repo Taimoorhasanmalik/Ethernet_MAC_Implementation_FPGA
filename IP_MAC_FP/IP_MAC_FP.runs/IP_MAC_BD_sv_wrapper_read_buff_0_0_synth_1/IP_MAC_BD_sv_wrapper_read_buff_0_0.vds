@@ -1,0 +1,262 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Oct 30 13:10:32 2025
+# Process ID: 29816
+# Current directory: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/IP_MAC_BD_sv_wrapper_read_buff_0_0_synth_1
+# Command line: vivado.exe -log IP_MAC_BD_sv_wrapper_read_buff_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP_MAC_BD_sv_wrapper_read_buff_0_0.tcl
+# Log file: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/IP_MAC_BD_sv_wrapper_read_buff_0_0_synth_1/IP_MAC_BD_sv_wrapper_read_buff_0_0.vds
+# Journal file: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/IP_MAC_BD_sv_wrapper_read_buff_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source IP_MAC_BD_sv_wrapper_read_buff_0_0.tcl -notrace
+Command: synth_design -top IP_MAC_BD_sv_wrapper_read_buff_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+WARNING: [IP_Flow 19-3571] IP 'IP_MAC_BD_sv_wrapper_read_buff_0_0' is restricted:
+* Module reference is stale and needs refreshing.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 25500
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1176.453 ; gain = 50.105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'IP_MAC_BD_sv_wrapper_read_buff_0_0' [c:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.srcs/sources_1/bd/IP_MAC_BD/ip/IP_MAC_BD_sv_wrapper_read_buff_0_0/synth/IP_MAC_BD_sv_wrapper_read_buff_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'sv_wrapper_read_buffer' [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/SV_Wrapper_Read_Buffer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'read_buffer' [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/read_buffer.sv:1]
+	Parameter WAIT_PRE_1 bound to: 2'b00 
+	Parameter WAIT_PKT_1 bound to: 2'b01 
+	Parameter WAIT_PRE_2 bound to: 2'b10 
+	Parameter WAIT_PKT_2 bound to: 2'b11 
+INFO: [Synth 8-6157] synthesizing module 'preamble_detector' [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/preamble_detector.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'preamble_detector' (1#1) [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/preamble_detector.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'read_buffer' (2#1) [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/read_buffer.sv:1]
+WARNING: [Synth 8-689] width (1) of port connection 'pipe_rxd' does not match port width (8) of module 'read_buffer' [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/SV_Wrapper_Read_Buffer.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'sv_wrapper_read_buffer' (3#1) [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/SV_Wrapper_Read_Buffer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IP_MAC_BD_sv_wrapper_read_buff_0_0' (4#1) [c:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.srcs/sources_1/bd/IP_MAC_BD/ip/IP_MAC_BD_sv_wrapper_read_buff_0_0/synth/IP_MAC_BD_sv_wrapper_read_buff_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1244.562 ; gain = 118.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1244.562 ; gain = 118.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1244.562 ; gain = 118.215
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1244.562 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1345.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1345.582 ; gain = 0.008
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'read_buffer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              WAIT_PRE_1 |                             0010 |                               00
+              WAIT_PKT_1 |                             1000 |                               01
+              WAIT_PRE_2 |                             0100 |                               10
+              WAIT_PKT_2 |                             0001 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'read_buffer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 5     
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 41    
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 9     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 30    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1345.582 ; gain = 219.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1349.008 ; gain = 222.660
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                        | RTL Name                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|IP_MAC_BD_sv_wrapper_read_buff_0_0 | inst/inst_read_buffer/pipe4_empty_reg  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|IP_MAC_BD_sv_wrapper_read_buff_0_0 | inst/inst_read_buffer/pipe4_rx_dv_reg  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|IP_MAC_BD_sv_wrapper_read_buff_0_0 | inst/inst_read_buffer/pipe4_rx_er_reg  | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|IP_MAC_BD_sv_wrapper_read_buff_0_0 | inst/inst_read_buffer/pipe4_rxd_reg[7] | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
++-----------------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     2|
+|2     |LUT2   |    23|
+|3     |LUT3   |    19|
+|4     |LUT4   |    25|
+|5     |LUT5   |    38|
+|6     |LUT6   |    61|
+|7     |SRL16E |    11|
+|8     |FDCE   |   102|
+|9     |FDPE   |     1|
+|10    |FDRE   |   412|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1356.758 ; gain = 129.391
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1356.758 ; gain = 230.410
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1368.816 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1378.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:48 . Memory (MB): peak = 1378.438 ; gain = 252.090
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/IP_MAC_BD_sv_wrapper_read_buff_0_0_synth_1/IP_MAC_BD_sv_wrapper_read_buff_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/IP_MAC_BD_sv_wrapper_read_buff_0_0_synth_1/IP_MAC_BD_sv_wrapper_read_buff_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IP_MAC_BD_sv_wrapper_read_buff_0_0_utilization_synth.rpt -pb IP_MAC_BD_sv_wrapper_read_buff_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 30 13:11:35 2025...

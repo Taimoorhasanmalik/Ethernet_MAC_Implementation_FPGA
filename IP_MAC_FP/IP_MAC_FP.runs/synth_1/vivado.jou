@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Oct 30 13:12:41 2025
+# Process ID: 51464
+# Current directory: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/synth_1
+# Command line: vivado.exe -log IP_MAC_BD_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP_MAC_BD_wrapper.tcl
+# Log file: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/synth_1/IP_MAC_BD_wrapper.vds
+# Journal file: C:/Users/Taimoor/Desktop/SIVP Lab/IP_MAC_FP/IP_MAC_FP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IP_MAC_BD_wrapper.tcl -notrace

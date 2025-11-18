@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/preamble_detector.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module preamble_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/read_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_buffer
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'detected' is not allowed [C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/read_buffer.sv:76]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Taimoor/Desktop/Ethernet_Project/fp_det/read_buffer_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_buffer_tb
