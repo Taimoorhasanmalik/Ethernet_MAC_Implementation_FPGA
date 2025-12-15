@@ -1,0 +1,11 @@
+17:52:39 **** Build of configuration Debug for project Vitis_IP_MAC_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 42495 C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/IP_MAC_BD_wrapper/export/IP_MAC_BD_wrapper/IP_MAC_BD_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/Vitis_IP_MAC_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/IP_MAC_BD_wrapper/export/IP_MAC_BD_wrapper/IP_MAC_BD_wrapper.xpfm --sys_config IP_MAC_BD_wrapper --bif C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/Vitis_IP_MAC_system/Debug/system.bif --bitstream C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/Vitis_IP_MAC/_ide/bitstream/IP_MAC_BD_wrapper.bit --elf C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/Vitis_IP_MAC/Debug/Vitis_IP_MAC.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/Vitis_IP_MAC/_ide/bitstream/IP_MAC_BD_wrapper.bit
+Error intializing SD boot data : Software platform XML error, sdx:qemuArguments value "IP_MAC_BD_wrapper/qemu/qemu_args.txt" path does not exist C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/IP_MAC_BD_wrapper/export/IP_MAC_BD_wrapper/sw/IP_MAC_BD_wrapper/qemu/qemu_args.txt, platform path C:/Users/Taimoor/Desktop/SIVP/Vitis_IP_MAC/IP_MAC_BD_wrapper/export/IP_MAC_BD_wrapper, sdx:configuration IP_MAC_BD_wrapper, sdx:image standard
+make: *** [makefile:39: package] Error 1
+
+17:52:43 Build Finished (took 4s.215ms)
+

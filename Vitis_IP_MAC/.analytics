@@ -1,0 +1,162 @@
+timestamp=[2025-08-12 19:28:53], mode=WORKBENCH_START, duration=0:00:05.850, duration_ms=5850, data={}
+timestamp=[2025-08-12 19:28:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.589, duration_ms=589, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-08-12 19:28:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.863, duration_ms=2863, data={}
+timestamp=[2025-08-13 20:57:28], mode=WORKBENCH_START, duration=0:00:07.002, duration_ms=7002, data={}
+timestamp=[2025-08-13 20:57:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.822, duration_ms=822, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2025-08-13 20:57:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.723, duration_ms=5723, data={}
+timestamp=[2025-08-13 21:59:44], mode=APP_CREATION, duration=0:00:43.325, duration_ms=43325, data={name=Vitis_IP_MAC, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=IP_MAC_BD_wrapper, application_type=application}
+timestamp=[2025-08-13 22:12:07], mode=PLATFORM_GENERATION, duration=0:00:40.432, duration_ms=40432, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-13 22:12:13], mode=BUILD, duration=0:00:05.762, duration_ms=5762, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 01:00:28], mode=PLATFORM_GENERATION, duration=0:00:05.121, duration_ms=5121, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 01:00:35], mode=BUILD, duration=0:00:03.496, duration_ms=3496, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 01:25:15], mode=BUILD, duration=0:00:01.268, duration_ms=1268, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 02:34:17], mode=PLATFORM_GENERATION, duration=0:00:02.386, duration_ms=2386, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:34:28], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 02:43:10], mode=PLATFORM_GENERATION, duration=0:00:08.206, duration_ms=8206, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:43:27], mode=PLATFORM_GENERATION, duration=0:00:11.596, duration_ms=11596, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:43:27], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 02:43:54], mode=PLATFORM_GENERATION, duration=0:00:08.383, duration_ms=8383, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:44:22], mode=PLATFORM_GENERATION, duration=0:00:05.818, duration_ms=5818, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:44:47], mode=PLATFORM_GENERATION, duration=0:00:17.594, duration_ms=17594, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:44:48], mode=BUILD, duration=0:00:00.517, duration_ms=517, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 02:46:30], mode=PLATFORM_GENERATION, duration=0:00:08.909, duration_ms=8909, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:46:48], mode=PLATFORM_GENERATION, duration=0:00:07.721, duration_ms=7721, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:46:49], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 02:47:00], mode=PLATFORM_GENERATION, duration=0:00:07.846, duration_ms=7846, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:48:55], mode=PLATFORM_GENERATION, duration=0:00:13.309, duration_ms=13309, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 02:49:06], mode=BUILD, duration=0:00:01.772, duration_ms=1772, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 03:01:18], mode=PLATFORM_GENERATION, duration=0:00:02.348, duration_ms=2348, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 03:01:28], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 15:30:45], mode=WORKBENCH_START, duration=0:00:09.401, duration_ms=9401, data={}
+timestamp=[2025-08-14 15:30:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.770, duration_ms=770, data={editors_count=8, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-14 15:30:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.182, duration_ms=182, data={}
+timestamp=[2025-08-14 15:33:57], mode=PLATFORM_GENERATION, duration=0:00:21.835, duration_ms=21835, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 15:33:58], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 15:35:01], mode=PLATFORM_GENERATION, duration=0:00:08.717, duration_ms=8717, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 15:36:24], mode=PLATFORM_GENERATION, duration=0:00:07.826, duration_ms=7826, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 15:36:25], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 15:36:26], mode=BUILD, duration=0:00:01.367, duration_ms=1367, data={name=Vitis_IP_MAC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 15:36:45], mode=PLATFORM_GENERATION, duration=0:00:12.193, duration_ms=12193, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 15:36:59], mode=BUILD, duration=0:00:01.882, duration_ms=1882, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 16:13:42], mode=PLATFORM_GENERATION, duration=0:00:15.687, duration_ms=15687, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 16:13:48], mode=BUILD, duration=0:00:02.338, duration_ms=2338, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-14 16:57:42], mode=PLATFORM_GENERATION, duration=0:00:12.675, duration_ms=12675, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-14 16:57:49], mode=BUILD, duration=0:00:02.223, duration_ms=2223, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 18:51:52], mode=WORKBENCH_START, duration=0:00:10.225, duration_ms=10225, data={}
+timestamp=[2025-08-15 18:51:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.766, duration_ms=766, data={editors_count=9, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-15 18:51:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.177, duration_ms=177, data={}
+timestamp=[2025-08-15 19:33:10], mode=PLATFORM_GENERATION, duration=0:00:31.076, duration_ms=31076, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:33:26], mode=BUILD, duration=0:00:02.632, duration_ms=2632, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 19:33:49], mode=BUILD, duration=0:00:00.658, duration_ms=658, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 19:34:04], mode=BUILD, duration=0:00:13.957, duration_ms=13957, data={name=Vitis_IP_MAC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 19:35:29], mode=PLATFORM_GENERATION, duration=0:00:07.131, duration_ms=7131, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:37:06], mode=PLATFORM_GENERATION, duration=0:00:10.855, duration_ms=10855, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:44:23], mode=PLATFORM_GENERATION, duration=0:00:14.287, duration_ms=14287, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:44:50], mode=BUILD, duration=0:00:02.813, duration_ms=2813, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 19:47:44], mode=PLATFORM_GENERATION, duration=0:00:09.892, duration_ms=9892, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:52:38], mode=PLATFORM_GENERATION, duration=0:00:11.100, duration_ms=11100, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 19:52:41], mode=BUILD, duration=0:00:02.026, duration_ms=2026, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 20:29:30], mode=PLATFORM_GENERATION, duration=0:00:11.860, duration_ms=11860, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 20:29:48], mode=BUILD, duration=0:00:02.954, duration_ms=2954, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 20:30:00], mode=BUILD, duration=0:00:00.653, duration_ms=653, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 21:30:25], mode=PLATFORM_GENERATION, duration=0:00:02.284, duration_ms=2284, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 21:30:48], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-15 22:00:10], mode=PLATFORM_GENERATION, duration=0:00:02.304, duration_ms=2304, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-15 22:00:19], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-16 15:26:08], mode=WORKBENCH_START, duration=0:00:12.531, duration_ms=12531, data={}
+timestamp=[2025-08-16 15:26:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.725, duration_ms=725, data={editors_count=9, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-16 15:26:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.205, duration_ms=205, data={}
+timestamp=[2025-08-16 15:31:45], mode=PLATFORM_GENERATION, duration=0:00:26.892, duration_ms=26892, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-16 15:31:51], mode=BUILD, duration=0:00:02.298, duration_ms=2298, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:27:56], mode=WORKBENCH_START, duration=0:00:12.589, duration_ms=12589, data={}
+timestamp=[2025-08-17 17:27:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.687, duration_ms=687, data={editors_count=9, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-17 17:27:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.176, duration_ms=176, data={}
+timestamp=[2025-08-17 17:34:28], mode=PLATFORM_GENERATION, duration=0:00:24.768, duration_ms=24768, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:36:15], mode=PLATFORM_GENERATION, duration=0:00:09.987, duration_ms=9987, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:37:18], mode=PLATFORM_GENERATION, duration=0:00:09.742, duration_ms=9742, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:38:23], mode=PLATFORM_GENERATION, duration=0:00:07.959, duration_ms=7959, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:44:32], mode=PLATFORM_GENERATION, duration=0:00:12.645, duration_ms=12645, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:51:25], mode=BUILD, duration=0:00:02.046, duration_ms=2046, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:52:38], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:52:43], mode=BUILD, duration=0:00:04.227, duration_ms=4227, data={name=Vitis_IP_MAC_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:52:56], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:56:49], mode=PLATFORM_GENERATION, duration=0:00:04.373, duration_ms=4373, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:57:28], mode=PLATFORM_GENERATION, duration=0:00:07.939, duration_ms=7939, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:57:39], mode=PLATFORM_GENERATION, duration=0:00:07.921, duration_ms=7921, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 17:57:39], mode=BUILD, duration=0:00:00.577, duration_ms=577, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 17:58:12], mode=PLATFORM_GENERATION, duration=0:00:07.707, duration_ms=7707, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 18:00:21], mode=PLATFORM_GENERATION, duration=0:00:10.773, duration_ms=10773, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 18:00:56], mode=PLATFORM_GENERATION, duration=0:00:07.441, duration_ms=7441, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 18:01:11], mode=BUILD, duration=0:00:01.754, duration_ms=1754, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-17 18:03:11], mode=PLATFORM_GENERATION, duration=0:00:07.973, duration_ms=7973, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-17 18:03:14], mode=BUILD, duration=0:00:01.889, duration_ms=1889, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:00:41], mode=WORKBENCH_START, duration=0:00:12.384, duration_ms=12384, data={}
+timestamp=[2025-08-18 15:00:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.122, duration_ms=122, data={}
+timestamp=[2025-08-18 15:00:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.935, duration_ms=935, data={editors_count=11, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-18 15:02:09], mode=PLATFORM_GENERATION, duration=0:00:17.965, duration_ms=17965, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:02:15], mode=BUILD, duration=0:00:02.222, duration_ms=2222, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:06:54], mode=PLATFORM_GENERATION, duration=0:00:04.377, duration_ms=4377, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:07:06], mode=PLATFORM_GENERATION, duration=0:00:09.435, duration_ms=9435, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:07:06], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:07:40], mode=PLATFORM_GENERATION, duration=0:00:08.036, duration_ms=8036, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:07:53], mode=PLATFORM_GENERATION, duration=0:00:07.811, duration_ms=7811, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:11:55], mode=PLATFORM_GENERATION, duration=0:00:17.112, duration_ms=17112, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:13:07], mode=PLATFORM_GENERATION, duration=0:00:12.377, duration_ms=12377, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:13:16], mode=BUILD, duration=0:00:01.980, duration_ms=1980, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:16:40], mode=PLATFORM_GENERATION, duration=0:00:07.362, duration_ms=7362, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:16:46], mode=BUILD, duration=0:00:01.816, duration_ms=1816, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:28:36], mode=PLATFORM_GENERATION, duration=0:00:07.470, duration_ms=7470, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:28:45], mode=BUILD, duration=0:00:01.771, duration_ms=1771, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:33:00], mode=PLATFORM_GENERATION, duration=0:00:04.278, duration_ms=4278, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:35:26], mode=PLATFORM_GENERATION, duration=0:00:11.340, duration_ms=11340, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:35:36], mode=BUILD, duration=0:00:01.636, duration_ms=1636, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:40:58], mode=PLATFORM_GENERATION, duration=0:00:07.295, duration_ms=7295, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:41:08], mode=BUILD, duration=0:00:01.721, duration_ms=1721, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 15:44:17], mode=PLATFORM_GENERATION, duration=0:00:07.265, duration_ms=7265, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 15:44:22], mode=BUILD, duration=0:00:01.772, duration_ms=1772, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-18 16:50:13], mode=PLATFORM_GENERATION, duration=0:00:08.272, duration_ms=8272, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 16:51:43], mode=PLATFORM_GENERATION, duration=0:00:13.444, duration_ms=13444, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-18 16:59:07], mode=BUILD, duration=0:00:01.859, duration_ms=1859, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-19 16:13:34], mode=WORKBENCH_START, duration=0:00:12.485, duration_ms=12485, data={}
+timestamp=[2025-08-19 16:13:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.648, duration_ms=648, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-19 16:13:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.167, duration_ms=167, data={}
+timestamp=[2025-08-19 17:00:56], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-19 17:01:08], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-19 17:02:08], mode=PLATFORM_GENERATION, duration=0:00:03.175, duration_ms=3175, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-19 17:02:16], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 14:00:03], mode=WORKBENCH_START, duration=0:00:12.387, duration_ms=12387, data={}
+timestamp=[2025-08-21 14:00:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.787, duration_ms=787, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-21 14:00:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.226, duration_ms=226, data={}
+timestamp=[2025-08-21 14:14:53], mode=BUILD, duration=0:00:00.595, duration_ms=595, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 14:53:24], mode=PLATFORM_GENERATION, duration=0:00:03.342, duration_ms=3342, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 14:53:29], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 15:08:38], mode=PLATFORM_GENERATION, duration=0:00:02.253, duration_ms=2253, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 15:08:48], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 15:22:33], mode=PLATFORM_GENERATION, duration=0:00:02.361, duration_ms=2361, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 15:22:40], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 15:55:11], mode=PLATFORM_GENERATION, duration=0:00:02.296, duration_ms=2296, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 15:55:16], mode=BUILD, duration=0:00:00.376, duration_ms=376, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 16:12:00], mode=PLATFORM_GENERATION, duration=0:00:04.984, duration_ms=4984, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 16:12:09], mode=BUILD, duration=0:00:00.525, duration_ms=525, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 16:31:02], mode=PLATFORM_GENERATION, duration=0:00:02.417, duration_ms=2417, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-21 16:31:10], mode=BUILD, duration=0:00:00.443, duration_ms=443, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-21 16:31:12], mode=BUILD, duration=0:00:00.429, duration_ms=429, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-22 16:50:32], mode=WORKBENCH_START, duration=0:00:09.633, duration_ms=9633, data={}
+timestamp=[2025-08-22 16:50:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.754, duration_ms=754, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-22 16:50:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.146, duration_ms=146, data={}
+timestamp=[2025-08-22 16:51:43], mode=PLATFORM_GENERATION, duration=0:00:02.627, duration_ms=2627, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-22 16:51:49], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-08-24 16:48:55], mode=WORKBENCH_START, duration=0:00:12.565, duration_ms=12565, data={}
+timestamp=[2025-08-24 16:48:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.769, duration_ms=769, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-24 16:48:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.149, duration_ms=149, data={}
+timestamp=[2025-08-25 17:19:53], mode=WORKBENCH_START, duration=0:00:12.227, duration_ms=12227, data={}
+timestamp=[2025-08-25 17:19:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.222, duration_ms=222, data={}
+timestamp=[2025-08-25 17:19:54], mode=WORKBENCH_UI_INIT, duration=0:00:01.160, duration_ms=1160, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-25 23:42:20], mode=WORKBENCH_START, duration=0:00:11.517, duration_ms=11517, data={}
+timestamp=[2025-08-25 23:42:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.317, duration_ms=317, data={}
+timestamp=[2025-08-25 23:42:22], mode=WORKBENCH_UI_INIT, duration=0:00:01.870, duration_ms=1870, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-08-25 23:58:37], mode=PLATFORM_GENERATION, duration=0:00:02.709, duration_ms=2709, data={name=IP_MAC_BD_wrapper}
+timestamp=[2025-08-25 23:58:46], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=Vitis_IP_MAC, configuration=Debug, clean_build=false}
+timestamp=[2025-11-18 15:06:18], mode=WORKBENCH_START, duration=0:00:13.397, duration_ms=13397, data={}
+timestamp=[2025-11-18 15:06:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.731, duration_ms=731, data={editors_count=10, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=IP_MAC_BD_wrapper,RemoteSystemsTempFiles,Vitis_IP_MAC,Vitis_IP_MAC_system}
+timestamp=[2025-11-18 15:06:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.187, duration_ms=187, data={}

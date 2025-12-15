@@ -1,0 +1,9 @@
+Nothing to build in platform 'IP_MAC_BD_wrapper'
+
+23:58:45 **** Incremental Build of configuration Debug for project Vitis_IP_MAC ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

@@ -1,0 +1,7 @@
+/*IP_MAC_BD_wrapper*/
+the_ROM_image:
+{
+  [bootloader]<IP_MAC_BD_wrapper/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}
